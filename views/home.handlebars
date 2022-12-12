@@ -1,0 +1,10 @@
+{{#each admins}}
+    <p>Nome: {{Nome}}</p>
+    <p>Idade: {{Idade}}</p>
+    <a href="/admin/delete/{{id}}"><button>Delete</button></a>
+
+{{else}}
+
+    <h4>Não ha cadastro</h4>
+
+{{/each}}
